@@ -1,0 +1,8 @@
+clients:
+- idl:
+    type: local
+    path: ./thrift_go_map_gen.thrift
+  args:
+    module: github.com/daidai21/thrift-go-map-gen
+    thrift:
+    - ignore_initialisms=false
